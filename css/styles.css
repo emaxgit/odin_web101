@@ -9,20 +9,32 @@
     width: 100%;
 }
 
-
+header
+{
+    height: 50px;
+}
 
 
 .header_nav{
     float:right;
     display: block;
     overflow: hidden;
+    margin: 10px 10px;
+    line-height:25px;
+    
+    
 }
 
 .header_nav a {
     text-decoration: none;
     float:left;
-    
-    }
+    margin: 10px 10px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+   
+ }
 
 .header_nav a:hover{
     text-decoration: underline;
@@ -31,7 +43,9 @@
     height: 30px;
     width: 30px;
     opacity: .55;
-    }
+    display: inline-block;
+    
+}
 
 .google_apps_icon{
 
@@ -42,16 +56,22 @@
 .nav_circ_icon
 {
     border-radius:50%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
 }
 
 .google_not_icon{
     height: 20px;
     width: 20px;
-    background:red;
+    line-height: 20px;
+    background:#f44336;
 }
 
 .google_acc_icon{
     height: 30px;
     width: 30px;
-    background:red;
+    line-height: 30px;
+    background:#9c27b0;
 }
