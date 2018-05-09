@@ -19,11 +19,8 @@ header
     float:right;
     display: block;
     overflow: hidden;
-    margin: 10px 10px;
     line-height:25px;
-    
-    
-}
+    }
 
 .header_nav a {
     text-decoration: none;
@@ -74,4 +71,17 @@ header
     width: 30px;
     line-height: 30px;
     background:#9c27b0;
+}
+
+.image_logo{
+  text-align : center;
+ 
+   
+}
+ .image_logo img
+ {
+    width: 272px;
+    height:auto;
+    padding-top:112px;
+   
 }
