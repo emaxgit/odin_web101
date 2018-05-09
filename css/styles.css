@@ -5,7 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: black;
+   
 }
+
 
 
 
@@ -79,15 +81,13 @@ header
     background:#9c27b0;
 }
 
-section{
+.txt-centered{
     text-align : center;
 }
 
-.image_logo{
-  text-align : center;
- 
-   
-}
+
+
+
  .image_logo img
  {
     width: 272px;
@@ -96,16 +96,11 @@ section{
    
 }
 
-.search-form
-{
-    text-align: center; 
-   
-}
 
 .search-input-container{
     text-align: center;
     /*margin: 20px 20px; */
-    margin: auto;
+    margin:20px auto;
 
     position: relative;
     width: 40%;
@@ -141,13 +136,15 @@ section{
 }
 
 .search-buttons-container{
-padding: 30px 0 0 0;    
-text-align: center;
+padding: 5px 0;   
+line-height:60px;
+
 }
 
 .btn{
     border:none;
     padding: 14px 28px; 
+    margin: 5px 0;
     cursor: pointer;
     font-size: 13px;
     font-weight: bold;
@@ -167,3 +164,21 @@ text-align: center;
     color:#222;
 }
 
+.language-offered{
+    /*margin: 20px 0;*/
+    padding:20px 0;
+    font-size: small;
+    line-height:26px;
+    
+
+}
+
+.language-offered a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.language-offered a:hover{
+    text-decoration: underline;
+}
