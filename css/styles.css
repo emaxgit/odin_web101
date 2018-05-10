@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: black;
+  
    
 }
 
@@ -29,6 +28,15 @@ header
     line-height:25px;
     padding: 0 15px; 
     }
+
+nav a{
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
 
 .header_nav a {
     text-decoration: none;
@@ -93,6 +101,15 @@ header
 .font-light{
     color:rgb(119, 116, 116); 
 
+}
+
+.font-large{
+    font-size:small;
+
+}
+
+.font-dark{
+    color:rgb(51, 50, 50);
 }
 
 
@@ -198,14 +215,28 @@ footer
     position: fixed;
     bottom:0;
     width:100%;
+    overflow: hidden;
+    
 }
 
 .footer-section{
     padding: 0 20px; 
     background: rgb(236, 233, 233);
     text-align: left;
-    border-bottom: 1px solid rgb(207, 205, 205);
     border-top: 1px solid rgb(207, 205, 205);
     height: 40px;
     line-height:40px;
+    font-size: small;
+}
+
+.nav-right
+{
+    float:right;
+
+}
+
+footer nav a, .nav-right a{
+    font-size:small;
+    color:rgb(51, 50, 50);
+    padding-right:25px; 
 }
