@@ -85,6 +85,16 @@ header
     text-align : center;
 }
 
+.font-small
+{
+    font-size: 15px;
+}
+
+.font-light{
+    color:rgb(119, 116, 116); 
+
+}
+
 
 
 
@@ -181,4 +191,21 @@ line-height:60px;
 
 .language-offered a:hover{
     text-decoration: underline;
+}
+
+footer
+{
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+
+.footer-section{
+    padding: 0 20px; 
+    background: rgb(236, 233, 233);
+    text-align: left;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    border-top: 1px solid rgb(207, 205, 205);
+    height: 40px;
+    line-height:40px;
 }
